@@ -15,9 +15,15 @@ Do the following:
    1. Make a variable called votingAge and give it a value
    2. Return true if age is 18 or higher
 
+  
+
    HINT: no function required
 */
 
+let votingAge = 21;
+if ( votingAge >= 18 ){
+  console.log( "true" ) 
+}
 
 
 /*
@@ -30,9 +36,14 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
+let x = 3;
+let y = 4;
+  if (x === y) {
+    console.log(false)
+  } else{
+    x = y
+    console.log(x)
+  }
 
 
 /*
@@ -43,7 +54,7 @@ Do the following:
    2. Convert the string value of "1999" to a integer value of 1999
    3. Return the result
 
-   HINT: look up the Number method
+   HINT: look up the Number method use parseInt
 */
 
 
@@ -53,16 +64,14 @@ Do the following:
 Task 1d - Multiply
  
 Do the following:   
-   1. Invoke the multiply function below and pass it two numbers
+   1. Invokereturn functi  below and pass it two numbers
    2. Receive the numbers in the parameters: a and b
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function (a * b) 
 
-
+  return(5 , 4) 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -74,9 +83,15 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+
+function dogYears(a){
+  return a * 7 ;
 }
+
+console.log(dogYears(7))
+  
+    /*add your code here*/
+
 
 
 
@@ -107,9 +122,31 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+
+functions.hungryDog(weight , age) {
+  if (age >= 1){
+    if (weight <= 5){
+      return weight * .05;
+  }else if (weight > 5 && b < 10){
+      return weight * .0;
+  }else if (weight > 10 && b < 15 ){
+     return weight * .0;
+  }else if (weight > 15){
+      return weight * .0; 
   }
+} else if (age < 1) {
+    if (age >= .1666 && a < .3333){
+      return weight * .1;
+}else if (age >= .3333 && a =< .5833){
+      return weight * .05 ;
+}else if (age > .5833  && a < 1){
+      return weight * .04; 
+}
+  } 
+
+  console.log(hungryDog(15 , 1))
+
+  console.log(weightFood)
 
 
 
@@ -223,18 +260,17 @@ function vowelCounter(/*add your code here*/) {
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
-    console.log('its working');
-    return 'bar';
+  console.log('its working');
+  return 'bar';
 }
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Don't touch the code after this line! 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 export default{
-    foo,
-    multiply,
-    dogYears,
-    hungryDog,
-    game,
-    miles,
-    feet,
-    annoyingSong,
-    grade
-}
+  foo,
+  multiply,
+  dogYears,
+  hungryDog,
+  game,
+  miles,
+  feet,
+  annoyingSong,
+  grade
