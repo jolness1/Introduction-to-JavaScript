@@ -55,8 +55,7 @@ Do the following:
    2. Convert the string value of "1999" to a integer value of 1999
    3. Return the result
 
-   HINT: look up the 
-    use parseInt
+   HINT: look up the number 
 */
 
 
@@ -245,7 +244,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(num){
     while(num > 0){
-      console.log(`${num}`) bottle of soda on the WebGLSampler, ${num} bottles of soda, take one down pass it around ${num-1} bottles of soda on the wall
+      console.log(`${num}`) bottle of soda on the WebGLSampler, ${num} bottles of soda, take one down pass it around ${num -1} bottles of soda on the wall
     }
   }
 
