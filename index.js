@@ -54,7 +54,8 @@ Do the following:
    2. Convert the string value of "1999" to a integer value of 1999
    3. Return the result
 
-   HINT: look up the Number method use parseInt
+   HINT: look up the 
+    use parseInt
 */
 
 
@@ -64,14 +65,16 @@ Do the following:
 Task 1d - Multiply
  
 Do the following:   
-   1. Invokereturn functi  below and pass it two numbers
+   1. Invoke the multiply function and pass it two numbers
    2. Receive the numbers in the parameters: a and b
    3. Multiply a and b and return the answer
 */
 
-function (a * b) 
+function multiply(numA , numB){
+ return numA + numB
+}
 
-  return(5 , 4) 
+console.log(multiply(3,4))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -84,16 +87,11 @@ Do the following:
 */
 
 
-function dogYears(a){
-  return a * 7 ;
+function dogYears(dogYrA , dogYrB){
+  return dogYrA * dogYrB
 }
 
-console.log(dogYears(7))
-  
-    /*add your code here*/
-
-
-
+  console.log(dogYears(1 , 7))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -124,8 +122,8 @@ Use the hungryDog function and feeding requirements below to do the following:
 
 
 functions.hungryDog(weight , age) {
-  if (age >= 1){
-    if (weight <= 5){
+  if (age >= 1) = {
+    else if (weight <= 5){
       return weight * .05;
   }else if (weight > 5 && b < 10){
       return weight * .0;
@@ -134,19 +132,17 @@ functions.hungryDog(weight , age) {
   }else if (weight > 15){
       return weight * .0; 
   }
-} else if (age < 1) {
-    if (age >= .1666 && a < .3333){
-      return weight * .1;
-}else if (age >= .3333 && a =< .5833){
-      return weight * .05 ;
-}else if (age > .5833  && a < 1){
-      return weight * .04; 
-}
-  } 
+// } else if (age < 1) {
+//     if (age >= .1666 && a < .3333){
+//       return weight * .1;
+// }else if (age >= .3333 && a =< .5833){
+//       return weight * .05 ;
+// }else (age > .5833  && a < 1){
+//       return weight * .04; 
+// }
+//   } 
 
   console.log(hungryDog(15 , 1))
-
-  console.log(weightFood)
 
 
 
