@@ -20,9 +20,9 @@ Do the following:
    HINT: no function required
 */
 
-let votingAge = 21;
+let votingAge(voteAge);
 if ( votingAge >= 18 ){
-  console.log( "true" ) 
+  console.log(voteAge(21)) 
 }
 
 
@@ -88,10 +88,11 @@ Do the following:
 
 
 function dogYears(dogYrA , dogYrB){
+  console.log(dogYears(1 , 7))
   return dogYrA * dogYrB
 }
 
-  console.log(dogYears(1 , 7))
+  
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -121,29 +122,32 @@ Use the hungryDog function and feeding requirements below to do the following:
 */  
 
 
-functions.hungryDog(weight , age) {
-  if (age >= 1) = {
-    else if (weight <= 5){
-      return weight * .05;
-  }else if (weight > 5 && b < 10){
-      return weight * .0;
-  }else if (weight > 10 && b < 15 ){
-     return weight * .0;
-  }else if (weight > 15){
-      return weight * .0; 
+function hungryDog(lbs , age){
+  if (age >= 1 && lbs <=5 ){
+    return .05 * lbs
   }
-// } else if (age < 1) {
-//     if (age >= .1666 && a < .3333){
-//       return weight * .1;
-// }else if (age >= .3333 && a =< .5833){
-//       return weight * .05 ;
-// }else (age > .5833  && a < 1){
-//       return weight * .04; 
-// }
-//   } 
-
-  console.log(hungryDog(15 , 1))
-
+  else if (age >=1 && lbs > 5 && lbs <= 10){
+    return .04 * lbs
+  }
+  else if (age >=1 && lbs>10 && lbs<=15){
+    return .03 * lbs
+  }
+  else if (age >=1 && lbs > 15){
+    return .02 *lbs
+  }
+  else if (age < 1 && age > .58)
+    return .04 * lbs
+  else if (age <= .58 && age > .33){
+    return .05 * lbs
+  }
+  else if (age <= .33 && age >= .16){
+    return .1 * lbs
+  }
+  else{
+    return "Still Suckling"
+  }
+  }
+    console.log(hungryDog(15 , .1))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -207,8 +211,10 @@ Using the annoyingSong function below do the following:
       "(number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
+function annoyingSong(num){
+    while(num > 0){
+      console.log(`${num}`) bottle of soda on the WebGLSampler, ${num} bottles of soda, take one down pass it around ${num-1} bottles of soda on the wall
+    }
   }
 
 
