@@ -71,10 +71,10 @@ Do the following:
 */
 
 function multiply(numA , numB){
- return numA + numB
+ return numA + numB;
 }
 
-console.log(multiply(3,4))
+console.log(multiply(3,4));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -87,10 +87,10 @@ Do the following:
 */
 
 
-function dogYears(dogYrA , dogYrB){
-  console.log(dogYears(1 , 7))
-  return dogYrA * dogYrB
+function dogYears(humanYears){
+  return humanYears * 7
 }
+console.log(dogYears(1))
 
   
 
@@ -226,9 +226,10 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
-  }
+function feet(centimeters){
+  return centimeters / 30.48
+}
+console.log(feet(35))
  
 
 
@@ -242,11 +243,9 @@ Using the annoyingSong function below do the following:
       "(number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall"
 */
 
-function annoyingSong(num){
-    while(num > 0){
-      console.log(`${num}`) bottle of soda on the WebGLSampler, ${num} bottles of soda, take one down pass it around ${num -1} bottles of soda on the wall
-    }
-  }
+function annoyingSong(/*add your code here*/){
+  /*add your code here*/
+}
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -254,56 +253,55 @@ function annoyingSong(num){
 //Grade Calculator
 /*
 Using the grade function below do the following: 
-  1. Receive a score out of 100 
-  2. Return the corresponding letter grade following this grade scale:
-
-   90-100 = A 
-   80-89 = B 
-   70-79 = C 
-   60-69 =  D 
-   below 60 = F
+1. Receive a score out of 100 
+2. Return the corresponding letter grade following this grade scale:
+90-100 = A 
+80-89 = B 
+70-79 = C 
+60-69 =  D 
+below 60 = F
 */
-  
+
 function grade(/*add your code here*/){
-    /*add your code here*/
-  }
-  
-  
-  
-  
+/*add your code here*/
+}
+
+
+
+
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
 //Vowel Counter - How many vowels are there?
 /*
 Using the vowelCounter function below do the following:
-  1. Receive a string as a parameter
-  2. Count and return the number of vowels within that string.  It should handle both capitalized and uncapitalized vowels.
-
-  HINT - you may need to study tomorrow's content on arrays 
-  HINT - try looking up the .includes() method
+1. Receive a string as a parameter
+2. Count and return the number of vowels within that string.  It should handle both capitalized and uncapitalized vowels.
+HINT - you may need to study tomorrow's content on arrays 
+HINT - try looking up the .includes() method
 */
 
 
 function vowelCounter(/*add your code here*/) {
-    /*add your code here*/
+/*add your code here*/
 }
 
 
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
-  console.log('its working');
-  return 'bar';
+console.log('its working');
+return 'bar';
 }
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Don't touch the code after this line! 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 export default{
-  foo,
-  multiply,
-  dogYears,
-  hungryDog,
-  game,
-  miles,
-  feet,
-  annoyingSong,
-  grade
+foo,
+multiply,
+dogYears,
+hungryDog,
+game,
+miles,
+feet,
+annoyingSong,
+grade
+}
