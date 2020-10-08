@@ -71,7 +71,7 @@ Do the following:
 */
 
 function multiply(numA , numB){
- return numA + numB;
+ return numA * numB;
 }
 
 console.log(multiply(3,4));
@@ -212,8 +212,8 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+    return km * .621371
   }
 
 
@@ -262,8 +262,8 @@ Using the grade function below do the following:
 below 60 = F
 */
 
-function grade(/*add your code here*/){
-/*add your code here*/
+function grade(gradePercentage){
+  
 }
 
 
